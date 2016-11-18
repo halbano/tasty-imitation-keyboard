@@ -74,17 +74,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itau_loco" translatesAutoresizingMaskIntoConstraints="NO" id="ZQU-nS-fwi">
+                                <rect key="frame" x="122" y="328.5" width="131" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZQU-nS-fwi" secondAttribute="height" multiplier="131:130" id="i2G-tj-v25"/>
+                                    <constraint firstAttribute="width" constant="131" id="rrQ-Uy-pTx"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jEi-oU-7aO" firstAttribute="leading" secondItem="aBi-zl-Xx9" secondAttribute="leadingMargin" id="0fI-cc-CKa"/>
                             <constraint firstItem="JkG-lS-E73" firstAttribute="trailing" secondItem="aBi-zl-Xx9" secondAttribute="trailingMargin" id="1QW-qc-rHz"/>
                             <constraint firstItem="Jto-Fw-99T" firstAttribute="top" secondItem="xea-iY-wvs" secondAttribute="bottom" constant="8" id="2PO-BH-UYU"/>
-                            <constraint firstAttribute="trailing" secondItem="IC3-rM-66w" secondAttribute="trailing" id="2Tb-f1-RXm"/>
-                            <constraint firstItem="IC3-rM-66w" firstAttribute="leading" secondItem="aBi-zl-Xx9" secondAttribute="leading" id="6fk-Jg-LEU"/>
                             <constraint firstItem="Sv9-QE-0tf" firstAttribute="trailing" secondItem="aBi-zl-Xx9" secondAttribute="trailingMargin" id="ARH-fd-BD7"/>
-                            <constraint firstItem="P06-La-EKF" firstAttribute="top" secondItem="IC3-rM-66w" secondAttribute="bottom" id="CAM-uD-RD7"/>
-                            <constraint firstItem="IC3-rM-66w" firstAttribute="top" secondItem="aBi-zl-Xx9" secondAttribute="top" id="F9u-ma-0Be"/>
                             <constraint firstItem="xea-iY-wvs" firstAttribute="top" secondItem="Bpu-v8-xYb" secondAttribute="bottom" id="FcX-JF-0f0"/>
                             <constraint firstItem="JkG-lS-E73" firstAttribute="top" secondItem="Sv9-QE-0tf" secondAttribute="bottom" constant="8" id="Isy-cH-00j"/>
                             <constraint firstItem="zIN-qD-YPT" firstAttribute="leading" secondItem="aBi-zl-Xx9" secondAttribute="leadingMargin" id="RS7-5Q-7dX"/>
@@ -98,8 +101,10 @@
                             <constraint firstAttribute="centerX" secondItem="3bG-47-LNQ" secondAttribute="centerX" constant="-0.5" id="iSm-MK-elT"/>
                             <constraint firstItem="DHg-2u-x0l" firstAttribute="centerX" secondItem="aBi-zl-Xx9" secondAttribute="centerX" id="mQ5-Pd-Fcf"/>
                             <constraint firstItem="JkG-lS-E73" firstAttribute="leading" secondItem="aBi-zl-Xx9" secondAttribute="leadingMargin" id="tu3-o3-Xrq"/>
+                            <constraint firstItem="ZQU-nS-fwi" firstAttribute="centerX" secondItem="aBi-zl-Xx9" secondAttribute="centerX" id="uEh-P4-B4b"/>
                             <constraint firstItem="Jto-Fw-99T" firstAttribute="leading" secondItem="aBi-zl-Xx9" secondAttribute="leadingMargin" id="wXH-Yx-oBy"/>
                             <constraint firstItem="zIN-qD-YPT" firstAttribute="trailing" secondItem="aBi-zl-Xx9" secondAttribute="trailingMargin" id="wod-3F-kte"/>
+                            <constraint firstItem="ZQU-nS-fwi" firstAttribute="centerY" secondItem="aBi-zl-Xx9" secondAttribute="centerY" constant="60" id="xUG-L4-H9N"/>
                             <constraint firstItem="3bG-47-LNQ" firstAttribute="top" secondItem="jEi-oU-7aO" secondAttribute="bottom" constant="8" id="znP-aw-Mau"/>
                             <constraint firstItem="DHg-2u-x0l" firstAttribute="centerY" secondItem="aBi-zl-Xx9" secondAttribute="centerY" constant="100" id="zoy-pa-b9a"/>
                         </constraints>
