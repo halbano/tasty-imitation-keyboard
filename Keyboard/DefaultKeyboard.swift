@@ -15,7 +15,7 @@ func defaultKeyboard() -> Keyboard {
         defaultKeyboard.addKey(keyModel, row: 0, page: 0)
     }
     
-    for key in ["A", "S", "D", "F", "G", "H", "J", "K", "L"] {
+    for key in ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ñ"] {
         let keyModel = Key(.character)
         keyModel.setLetter(key)
         defaultKeyboard.addKey(keyModel, row: 1, page: 0)
@@ -56,7 +56,7 @@ func defaultKeyboard() -> Keyboard {
     returnKey.lowercaseOutput = "\n"
     defaultKeyboard.addKey(returnKey, row: 3, page: 0)
     
-    for key in ["13", "2", "3", "4", "5", "6", "7", "8", "9", "0"] {
+    for key in ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"] {
         let keyModel = Key(.specialCharacter)
         keyModel.setLetter(key)
         defaultKeyboard.addKey(keyModel, row: 0, page: 1)
