@@ -23,18 +23,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IC3-rM-66w">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.26274509800000001" green="0.46666666670000001" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="itau_logo" translatesAutoresizingMaskIntoConstraints="NO" id="DHg-2u-x0l">
-                                <rect key="frame" x="127" y="376.5" width="121" height="114"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="DHg-2u-x0l" secondAttribute="height" multiplier="16:15" id="Cp6-fN-UhM"/>
-                                    <constraint firstAttribute="height" constant="114" id="vTJ-oq-zxa"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xea-iY-wvs">
                                 <rect key="frame" x="238" y="20" width="124" height="30"/>
                                 <state key="normal" title="Dismiss Keyboard">
@@ -100,14 +88,12 @@
                             <constraint firstItem="Sv9-QE-0tf" firstAttribute="leading" secondItem="aBi-zl-Xx9" secondAttribute="leadingMargin" id="hsX-fG-ejf"/>
                             <constraint firstItem="zIN-qD-YPT" firstAttribute="top" secondItem="Jto-Fw-99T" secondAttribute="bottom" constant="8" id="huJ-vL-ZtF"/>
                             <constraint firstAttribute="centerX" secondItem="3bG-47-LNQ" secondAttribute="centerX" constant="-0.5" id="iSm-MK-elT"/>
-                            <constraint firstItem="DHg-2u-x0l" firstAttribute="centerX" secondItem="aBi-zl-Xx9" secondAttribute="centerX" id="mQ5-Pd-Fcf"/>
                             <constraint firstItem="JkG-lS-E73" firstAttribute="leading" secondItem="aBi-zl-Xx9" secondAttribute="leadingMargin" id="tu3-o3-Xrq"/>
                             <constraint firstItem="ZQU-nS-fwi" firstAttribute="centerX" secondItem="aBi-zl-Xx9" secondAttribute="centerX" id="uEh-P4-B4b"/>
                             <constraint firstItem="Jto-Fw-99T" firstAttribute="leading" secondItem="aBi-zl-Xx9" secondAttribute="leadingMargin" id="wXH-Yx-oBy"/>
                             <constraint firstItem="zIN-qD-YPT" firstAttribute="trailing" secondItem="aBi-zl-Xx9" secondAttribute="trailingMargin" id="wod-3F-kte"/>
                             <constraint firstItem="ZQU-nS-fwi" firstAttribute="centerY" secondItem="aBi-zl-Xx9" secondAttribute="centerY" constant="60" id="xUG-L4-H9N"/>
                             <constraint firstItem="3bG-47-LNQ" firstAttribute="top" secondItem="jEi-oU-7aO" secondAttribute="bottom" constant="8" id="znP-aw-Mau"/>
-                            <constraint firstItem="DHg-2u-x0l" firstAttribute="centerY" secondItem="aBi-zl-Xx9" secondAttribute="centerY" constant="100" id="zoy-pa-b9a"/>
                         </constraints>
                     </view>
                     <connections>
@@ -120,5 +106,6 @@
         </scene>
     </scenes>
     <resources>
+        <image name="itau_loco" width="1024" height="1024"/>
     </resources>
 </document>
